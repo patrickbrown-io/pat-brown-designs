@@ -1,0 +1,34 @@
+import React, {useState} from 'react';
+import Video from '../../videos/video.mp4';
+import { Button } from '../Button';
+import { HomeContainer, HomeBg, VideoBg, HomeContent, HomeBtnWrapper, HomeH1, HomeP,  ArrowForward, ArrowRight } from './Welcome';
+
+const Home = () => {
+    const [hover, setHover] = useState(false)
+
+    const onHover= () => {
+        setHover(!hover)
+    }
+
+    return (
+        <HomeContainer id="home">
+            <HomeBg>
+                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+            </HomeBg>
+            <HomeContent>
+                <HomeH1>welcome to pat brown designs</HomeH1>
+                <HomeP>I am a fullstack javascript developer</HomeP>
+                <HomeBtnWrapper>
+                    <Button to="about" onMouseEnter={onHover} onMouseLeave={onHover}
+                    primary="true"
+                    dark="true"
+                    >
+                        Who is Pat? {hover ? <ArrowForward /> : <ArrowRight />}
+                    </Button>
+                </HomeBtnWrapper>
+            </HomeContent>    
+        </HomeContainer>
+    )
+}
+
+export default Home
