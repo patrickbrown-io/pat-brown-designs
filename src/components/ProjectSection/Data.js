@@ -74,7 +74,7 @@ export const projObjFour = {
   topLine: "Weather-based Playlist Generator",
   headline: "the VibeForecast",
   description:
-    "This was the first project a few weeks into DU's Full Stack Developer program and holds a very special place in my heart. Developed with jQuery, this application takes OpenWeather API data in and returns music suggestions from YouTube's API of creative commons music. I was incredibly proud of myself and my team of complete beginning web engineers for getting this together with maybe a month of coding under out belts and a beginning understanding of JavaScript between the four of us",
+    "This was the first project a few weeks into DU's Full Stack Developer program and holds a very special place in my heart. Developed with jQuery, this application takes OpenWeather API data in and returns music suggestions from YouTube's API of creative commons music. I was incredibly proud of myself and my team of beginning web engineers for getting this together with less than a month of coding under out belts. Just look how far we've all come!",
   imgStart: false,
   imgSrc:
     "https://images.unsplash.com/photo-1555580399-49e780f216b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3774&q=80",
@@ -84,4 +84,44 @@ export const projObjFour = {
   darkText: false,
   repoSite: "https://github.com/AdamKuemmel/theVibeForecast",
   liveSite: "https://adamkuemmel.github.io/theVibeForecast/",
+};
+
+// PWA
+export const projObjFive = {
+  id: "budget",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: false,
+  topLine: "Take your application offline",
+  headline: "PWA Budget Tracker",
+  description:
+    "Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime. Having offline functionality is paramount to a complete user experience and in this progressive web app budget, you can take your budgeting app on the go with a simple download",
+  imgStart: false,
+  imgSrc:
+    "https://github.com/patrickbrown-io/PWA-Budget-Tracker/raw/main/assets/screenshot.jpg",
+  alt: "A view of the Budget Progressive Web Application",
+  dark: true,
+  primary: true,
+  darkText: false,
+  repoSite: "https://github.com/patrickbrown-io/PWA-Budget-Tracker",
+  liveSite: "https://infinite-citadel-61093.herokuapp.com/",
+};
+export const projObjSix = {
+  id: "budget",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: false,
+  topLine: "Take your application offline",
+  headline: "PWA Budget Tracker",
+  description:
+    "Using Apollo Server and the MERNG Stack (MongoDB, Express, React, Node, and GraphQL), this is a Google Books API search engine. Authentication middleware works in the context of a GraphQL API. Includes schema settings for resolvers and typeDefs as outlined",
+  imgStart: false,
+  imgSrc:
+    "https://github.com/patrickbrown-io/Book-Search-Engine/raw/main/assets/screenshot.jpg",
+  alt: "A view of a Book Search Engine",
+  dark: true,
+  primary: true,
+  darkText: false,
+  repoSite: "https://github.com/patrickbrown-io/Book-Search-Engine",
+  liveSite: "https://whispering-river-55779.herokuapp.com/",
 };

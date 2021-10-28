@@ -23,7 +23,7 @@ const Projects = () => {
             <ProjectH2>moovie | Movie Reviews</ProjectH2>
             <ProjectP>React, MongoDB, Express.js, Node.js, GraphQl</ProjectP>
             <br />
-            <ButtonR to="/moovie">Demo</ButtonR>
+            <ButtonR to="/moovie">See More</ButtonR>
           </ProjectCard>
 
           <ProjectCard>
@@ -31,7 +31,7 @@ const Projects = () => {
             <ProjectH2>NFTy | NFT eCommerce</ProjectH2>
             <ProjectP>mySQL, Handlebars.js, RESTful API</ProjectP>
             <br />
-            <ButtonR to="/nfty">Demo</ButtonR>
+            <ButtonR to="/nfty">See More</ButtonR>
           </ProjectCard>
 
           <ProjectCard>
@@ -39,7 +39,7 @@ const Projects = () => {
             <ProjectH2>Redux eCommerce</ProjectH2>
             <ProjectP>Redux, React, MongoDB, Express.js, Node.js</ProjectP>
             <br />
-            <ButtonR to="/redux">Demo</ButtonR>
+            <ButtonR to="/redux">See More</ButtonR>
           </ProjectCard>
 
           <ProjectCard>
@@ -47,23 +47,29 @@ const Projects = () => {
             <ProjectH2>The vibeForecast</ProjectH2>
             <ProjectP>Weather-based Playlist Generator | jQuery</ProjectP>
             <br />
-            <ButtonR to="/vibe">Demo</ButtonR>
+            <ButtonR to="/vibe">See More</ButtonR>
           </ProjectCard>
 
           <ProjectCard>
             <ProjectIcon src={Proj1} />
-            <ProjectH2>Text</ProjectH2>
-            <ProjectP>Project paragraph is here this is a lot of text</ProjectP>
+            <ProjectH2>PWA Budget</ProjectH2>
+            <ProjectP>
+              Enter deposits and expenses on and offline with this progressive
+              web application
+            </ProjectP>
             <br />
-            <ButtonR to="/contact">Demo</ButtonR>
+            <ButtonR to="/budget">See More</ButtonR>
           </ProjectCard>
 
           <ProjectCard>
             <ProjectIcon src={Proj1} />
-            <ProjectH2>Text</ProjectH2>
-            <ProjectP>Project paragraph is here this is a lot of text</ProjectP>
+            <ProjectH2>Book Search Engine</ProjectH2>
+            <ProjectP>
+              Fetch and modify your list of books to read with this MERN+G
+              Google Books API app
+            </ProjectP>
             <br />
-            <ButtonR to="/contact">Demo</ButtonR>
+            <ButtonR to="/books">See More</ButtonR>
           </ProjectCard>
         </ProjectWrapper>
       </ProjectContainer>
