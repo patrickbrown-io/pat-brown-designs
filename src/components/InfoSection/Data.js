@@ -1,3 +1,5 @@
+import Proj1 from "../../images/svg-1.svg";
+
 export const homeObjOne = {
   id: "about",
   lightBg: false,
@@ -21,7 +23,7 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
   id: "skills",
-  lightBg: true,
+  lightBg: false,
   lightText: true,
   lightTextDesc: false,
   topLine: "Languages & Applications",
@@ -30,7 +32,7 @@ export const homeObjTwo = {
     "JavaScript, Express.js, Node.js, React.js, MongoDB, CSS3, HTML5, mySQL, GraphQL, postgreSQL, Github, RESTful API's, Progressive Web Applications, jQuery",
   buttonLabel: "Projects",
   imgStart: true,
-  imgSrc: require("../../images/development.svg"),
+  imgSrc: { Proj1 },
   // "https://media-exp1.licdn.com/dms/image/C4E03AQG3tQ4GX-RDgQ/profile-displayphoto-shrink_100_100/0/1592799089030?e=1640822400&v=beta&t=aRCGyOK0Y-B3eFRVY0Z9Cbju4ZUYkAOhGgUnTFEnSjI",
   alt: "A handsome young full-stack Javascript developer eaglerly awaiting your call",
   dark: true,
