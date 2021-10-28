@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../Button";
+import { ButtonA } from "../Button";
 import {
   ProjectInfoContainer,
   ProjectInfoWrapper,
@@ -24,7 +24,6 @@ const ProjectSection = ({
   headline,
   darkText,
   description,
-  buttonLabel,
   imgSrc,
   alt,
   primary,
@@ -48,32 +47,23 @@ const ProjectSection = ({
                   {description}
                 </ProjectSubtitle>
                 <ProjectBtnWrap>
-                  <Button
+                  <ButtonA
                     href={liveSite}
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact={true}
-                    offset={-80}
+                    target="_blank"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
                     dark2={dark2 ? 1 : 0}
                   >
                     Demo
-                  </Button>
-                  <Button
+                  </ButtonA>
+                  <ButtonA
                     href={repoSite}
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact={true}
-                    offset={-80}
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
                     dark2={dark2 ? 1 : 0}
                   >
                     Repo
-                  </Button>
+                  </ButtonA>
                 </ProjectBtnWrap>
               </ProjectTextWrapper>
             </ProjectColumn1>
