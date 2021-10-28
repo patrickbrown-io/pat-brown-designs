@@ -111,10 +111,10 @@ export const projObjSix = {
   lightBg: false,
   lightText: true,
   lightTextDesc: false,
-  topLine: "Take your application offline",
-  headline: "PWA Budget Tracker",
+  topLine: "A User-authenticated Book Search Application",
+  headline: "Save Your Books!",
   description:
-    "Using Apollo Server and the MERNG Stack (MongoDB, Express, React, Node, and GraphQL), this is a Google Books API search engine. Authentication middleware works in the context of a GraphQL API. Includes schema settings for resolvers and typeDefs as outlined",
+    "Using Apollo Server and the MERNG Stack (MongoDB, Express, React, Node, and GraphQL), this is a Google Books API search engine. Authentication middleware works in the context of a GraphQL API. Includes schema settings for resolvers and typeDefs. Create an account and get to reading your backlog!",
   imgStart: false,
   imgSrc:
     "https://github.com/patrickbrown-io/Book-Search-Engine/raw/main/assets/screenshot.jpg",
