@@ -1,5 +1,9 @@
 import React from "react";
 import Proj1 from "../../images/svg-1.svg";
+import cow from "../../images/moovie.jpg";
+import budget from "../../images/budget.jpg";
+import book from "../../images/book.jpg";
+
 import {
   ProjectContainer,
   ProjectH1,
@@ -19,7 +23,7 @@ const Projects = () => {
         <ProjectH1>Projects</ProjectH1>
         <ProjectWrapper>
           <ProjectCard>
-            <ProjectIcon src={Proj1} />
+            <ProjectIcon src={cow} />
             <ProjectH2>moovie | Movie Reviews</ProjectH2>
             <ProjectP>React, MongoDB, Express.js, Node.js, GraphQl</ProjectP>
             <br />
@@ -27,7 +31,7 @@ const Projects = () => {
           </ProjectCard>
 
           <ProjectCard>
-            <ProjectIcon src={Proj1} />
+            <ProjectIcon src="https://github.com/HavoxPrime/NFTy/raw/main/public/images/NFTylogo.png" />
             <ProjectH2>NFTy | NFT eCommerce</ProjectH2>
             <ProjectP>mySQL, Handlebars.js, RESTful API</ProjectP>
             <br />
@@ -43,7 +47,7 @@ const Projects = () => {
           </ProjectCard>
 
           <ProjectCard>
-            <ProjectIcon src={Proj1} />
+            <ProjectIcon src="https://images.unsplash.com/photo-1555580399-49e780f216b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3774&q=80" />
             <ProjectH2>The vibeForecast</ProjectH2>
             <ProjectP>Weather-based Playlist Generator | jQuery</ProjectP>
             <br />
@@ -51,23 +55,17 @@ const Projects = () => {
           </ProjectCard>
 
           <ProjectCard>
-            <ProjectIcon src={Proj1} />
+            <ProjectIcon src={budget} />
             <ProjectH2>PWA Budget</ProjectH2>
-            <ProjectP>
-              Enter deposits and expenses on and offline with this progressive
-              web application
-            </ProjectP>
+            <ProjectP>Enter deposits & expenses offline | PWA</ProjectP>
             <br />
             <ButtonR to="/budget">See More</ButtonR>
           </ProjectCard>
 
           <ProjectCard>
-            <ProjectIcon src={Proj1} />
+            <ProjectIcon src={book} />
             <ProjectH2>Book Search Engine</ProjectH2>
-            <ProjectP>
-              Fetch and modify your list of books to read with this MERN+G
-              Google Books API app
-            </ProjectP>
+            <ProjectP>Find and save your favorite books | MERN+G </ProjectP>
             <br />
             <ButtonR to="/books">See More</ButtonR>
           </ProjectCard>

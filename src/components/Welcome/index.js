@@ -26,8 +26,8 @@ const Home = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HomeBg>
       <HomeContent>
-        <HomeH1>welcome to pat brown designs</HomeH1>
-        <HomeP>I am a fullstack javascript developer</HomeP>
+        <HomeH1>pat brown designs</HomeH1>
+        <HomeP>welcome</HomeP>
         <HomeBtnWrapper>
           <Button
             to="about"

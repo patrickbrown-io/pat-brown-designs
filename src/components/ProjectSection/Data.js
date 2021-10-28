@@ -32,9 +32,9 @@ export const projObjTwo = {
   description:
     "Working with a team of full-stack developers at DU's Full Stack Program, our second project is an NFT eCommerce platform developed with mySQL, Handlebars.js, Express.js, and Node.js. On this project, I was responsible for creating the RESTful API backend. Users can view and add NFTs to cart, and checkout.",
   buttonLabel: "Projects",
-  imgStart: true,
+  imgStart: false,
   imgSrc:
-    "https://github.com/patrickbrown-io/NFTy/raw/main/public/images/Mainpg.png",
+    "https://github.com/HavoxPrime/NFTy/raw/main/public/images/Mainpg.png",
   alt: "A view of Pat Brown's NFTy application homepage",
   dark: true,
   primary: true,
@@ -96,7 +96,7 @@ export const projObjFive = {
   headline: "PWA Budget Tracker",
   description:
     "Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime. Having offline functionality is paramount to a complete user experience and in this progressive web app budget, you can take your budgeting app on the go with a simple download",
-  imgStart: false,
+  imgStart: true,
   imgSrc:
     "https://github.com/patrickbrown-io/PWA-Budget-Tracker/raw/main/assets/screenshot.jpg",
   alt: "A view of the Budget Progressive Web Application",

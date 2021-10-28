@@ -79,7 +79,9 @@ export const ProjectSubtitle = styled.p`
 
 export const ProjectBtnWrap = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
 `;
 export const ProjectImgWrap = styled.div`
   max-width: 555px;
