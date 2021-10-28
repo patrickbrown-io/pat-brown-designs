@@ -47,7 +47,7 @@ const Projects = () => {
             <ProjectH2>The vibeForecast</ProjectH2>
             <ProjectP>Weather-based Playlist Generator | jQuery</ProjectP>
             <br />
-            <ButtonR to="/ecommerce">Demo</ButtonR>
+            <ButtonR to="/vibe">Demo</ButtonR>
           </ProjectCard>
 
           <ProjectCard>
