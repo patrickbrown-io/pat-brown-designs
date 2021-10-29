@@ -8,6 +8,7 @@ import Redux from "./pages/redux";
 import VibeFore from "./pages/vibeforecast";
 import Budget from "./pages/budget";
 import Books from "./pages/books";
+
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/vibe" component={VibeFore} exact />
         <Route path="/budget" component={Budget} exact />
         <Route path="/books" component={Books} exact />
+        <Route path="*" component={Home} />
       </Switch>
     </Router>
   );
