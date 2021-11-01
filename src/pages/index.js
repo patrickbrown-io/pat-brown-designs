@@ -6,6 +6,7 @@ import InfoSection from "../components/InfoSection";
 import { homeObjOne, homeObjTwo } from "../components/InfoSection/Data";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
+import ContactBar from "../components/ContactBar";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,10 +15,18 @@ const Home = () => {
     setIsOpen(!isOpen);
   };
 
+  // contactOpen, contactToggle;
+  const [contactOpen, setContactOpen] = useState(false);
+
+  const contactToggle = () => {
+    setContactOpen(!contactOpen);
+  };
+
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
+      <Sidebar isOpen={isOpen} toggle={toggle} contactToggle={contactToggle} />
+      <Navbar toggle={toggle} contactToggle={contactToggle} />
+      <ContactBar contactOpen={contactOpen} contactToggle={contactToggle} />
       <HomeSection />
       <InfoSection {...homeObjOne} />
       <Projects />
