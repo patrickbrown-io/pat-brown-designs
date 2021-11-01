@@ -13,7 +13,7 @@ import {
   NavBtnLink,
 } from "./Navbar";
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle, contactToggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -100,7 +100,9 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/contact">Contact</NavBtnLink>
+            <NavBtnLink onClick={contactToggle} to="/">
+              Contact
+            </NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

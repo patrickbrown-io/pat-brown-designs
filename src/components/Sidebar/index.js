@@ -10,7 +10,7 @@ import {
   SidebarRoute,
 } from "./Sidebar";
 
-const Sidebar = ({ isOpen, toggle }) => {
+const Sidebar = ({ isOpen, toggle, contactToggle }) => {
   return (
     <>
       <SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -37,7 +37,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </SidebarLink>
           </SidebarMenu>
           <SideBtnWrap>
-            <SidebarRoute to="contact" onClick={toggle} offset={-80}>
+            <SidebarRoute to="/" onClick={contactToggle} offset={-80}>
               Contact
             </SidebarRoute>
           </SideBtnWrap>
