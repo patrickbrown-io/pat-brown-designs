@@ -32,8 +32,8 @@ export const homeObjTwo = {
     "JavaScript, Express.js, Node.js, React.js, MongoDB, CSS3, HTML5, mySQL, GraphQL, postgreSQL, Github, RESTful API's, Progressive Web Applications, jQuery",
   buttonLabel: "Projects",
   imgStart: true,
-  imgSrc: { Proj1 },
-  // "https://media-exp1.licdn.com/dms/image/C4E03AQG3tQ4GX-RDgQ/profile-displayphoto-shrink_100_100/0/1592799089030?e=1640822400&v=beta&t=aRCGyOK0Y-B3eFRVY0Z9Cbju4ZUYkAOhGgUnTFEnSjI",
+  imgSrc:
+    "https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1760&q=80",
   alt: "A handsome young full-stack Javascript developer eaglerly awaiting your call",
   dark: true,
   primary: true,

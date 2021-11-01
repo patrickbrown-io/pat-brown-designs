@@ -27,7 +27,7 @@ const Home = () => {
       </HomeBg>
       <HomeContent>
         <HomeH1>pat brown designs</HomeH1>
-        <HomeP>welcome</HomeP>
+        <HomeP>Delivering modern user experiences</HomeP>
         <HomeBtnWrapper>
           <Button
             to="about"

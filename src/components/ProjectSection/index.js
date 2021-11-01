@@ -58,6 +58,7 @@ const ProjectSection = ({
                   </ButtonA>
                   <ButtonA
                     href={repoSite}
+                    target="_blank"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
                     dark2={dark2 ? 1 : 0}
