@@ -7,6 +7,7 @@ import { homeObjOne, homeObjTwo } from "../components/InfoSection/Data";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 import ContactBar from "../components/ContactBar";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,7 @@ const Home = () => {
 
   return (
     <>
+      <ScrollToTop />
       <Sidebar isOpen={isOpen} toggle={toggle} contactToggle={contactToggle} />
       <Navbar toggle={toggle} contactToggle={contactToggle} />
       <ContactBar contactOpen={contactOpen} contactToggle={contactToggle} />
