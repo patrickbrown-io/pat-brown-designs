@@ -8,7 +8,7 @@ export const homeObjOne = {
   topLine: "Full-Stack Javascript Developer",
   headline: "Pat Brown",
   description:
-    "Based in Denver, I leverage a seven-year career in content marketing strategy to deliver unified and refreshing user experiences. Graduate of the University of Denver's Full-Stack Development certificate hone my engineering skills in modern scalable and performant web applications utilizing the MERN+G stack as my preferred development architecture. ",
+    "Based in Denver, I leverage a seven-year career in content marketing strategy to deliver unified and refreshing user experiences. A graduate of the University of Denver's Full-Stack Development certificate, I hone my engineering skills in modern, scalable, and performant web applications utilizing the MERN+G stack as my preferred development architecture. ",
   buttonLabel: "Technical Skills",
   imgStart: false,
   imgSrc:
