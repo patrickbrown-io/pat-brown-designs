@@ -93,7 +93,7 @@ const ProjNavbar = ({ toggle }) => {
                 exact={true}
                 offset={30}
               >
-                Contact
+                Connect
               </ProjNavLinks>
             </NavItem>
           </NavMenu>

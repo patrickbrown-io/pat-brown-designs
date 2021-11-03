@@ -10,6 +10,8 @@ import {
   ArrowForward,
 } from "./Footer";
 
+import resume from "../../assets/Patrick-Brown-Resume-2021.pdf";
+
 const Footer = () => {
   return (
     <FooterContainer id="contact">
@@ -18,7 +20,9 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Documents</FooterLinkTitle>
-              <FooterLink link="/">// resume</FooterLink>
+              <FooterLink href={resume} target="_blank">
+                // resume
+              </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
 
@@ -43,7 +47,7 @@ const Footer = () => {
 
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Contact Me</FooterLinkTitle>
+              <FooterLinkTitle>Connect</FooterLinkTitle>
               <FooterLink
                 href="mailto:patbrowndesigns@gmail.com"
                 target="_blank"

@@ -95,7 +95,7 @@ const Navbar = ({ toggle, contactToggle }) => {
                 exact={true}
                 offset={30}
               >
-                Contact
+                Connect
               </NavLinks>
             </NavItem>
           </NavMenu>

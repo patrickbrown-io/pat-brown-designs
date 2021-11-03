@@ -21,6 +21,7 @@ export const FooterLinksContainer = styled.div`
 
   @media screen and (max-width: 820px) {
     padding-top: 32px;
+    flex-direction: column;
   }
 `;
 
@@ -50,7 +51,7 @@ export const FooterLinkItems = styled.div`
 `;
 
 export const FooterLinkTitle = styled.h1`
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 16px;
 `;
 
@@ -58,7 +59,7 @@ export const FooterLink = styled.a`
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
 
   &:hover {
