@@ -29,7 +29,7 @@ export const homeObjTwo = {
   topLine: "Languages & Applications",
   headline: "Developer Tools",
   description:
-    "JavaScript, Express.js, Node.js, React.js, MongoDB, CSS3, HTML5, mySQL, GraphQL, postgreSQL, Github, RESTful API's, Progressive Web Applications, jQuery",
+    "JavaScript, Express.js, Node.js, React.js, React-Native, MongoDB, CSS3, HTML5, mySQL, GraphQL, postgreSQL, Github, RESTful API's, Progressive Web Applications, jQuery",
   buttonLabel: "Projects",
   imgStart: true,
   imgSrc:
