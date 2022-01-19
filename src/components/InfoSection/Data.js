@@ -13,7 +13,7 @@ export const homeObjOne = {
   imgStart: false,
   imgSrc:
     // require("../../images/svg-1.svg"),
-    "https://media-exp1.licdn.com/dms/image/C4E03AQGmjPQuy21ZPQ/profile-displayphoto-shrink_800_800/0/1636582122147?e=1642032000&v=beta&t=ljr--IqjopA9DrpLEdfcUFKgakkb4Mc1RUKBmYuRzbk",
+    "https://media-exp1.licdn.com/dms/image/C4E03AQGmjPQuy21ZPQ/profile-displayphoto-shrink_400_400/0/1636582122147?e=1648080000&v=beta&t=lN8jdSk69y7MJyxmtYfnBaLLURuMicJ93488lYD6iPU",
   alt: "A handsome young full-stack Javascript developer eaglerly awaiting your call",
   dark: true,
   primary: true,
