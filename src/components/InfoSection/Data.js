@@ -1,4 +1,5 @@
 import Proj1 from "../../images/svg-1.svg";
+import headshot from "../../images/headshot.jpg";
 
 export const homeObjOne = {
   id: "about",
@@ -13,7 +14,7 @@ export const homeObjOne = {
   imgStart: false,
   imgSrc:
     // require("../../images/svg-1.svg"),
-    "https://media-exp1.licdn.com/dms/image/C4E03AQGmjPQuy21ZPQ/profile-displayphoto-shrink_400_400/0/1636582122147?e=1648080000&v=beta&t=lN8jdSk69y7MJyxmtYfnBaLLURuMicJ93488lYD6iPU",
+    headshot,
   alt: "A handsome young full-stack Javascript developer eaglerly awaiting your call",
   dark: true,
   primary: true,
@@ -29,7 +30,7 @@ export const homeObjTwo = {
   topLine: "Languages & Applications",
   headline: "Developer Tools",
   description:
-    "JavaScript, Express.js, Node.js, React.js, React-Native, MongoDB, CSS3, HTML5, mySQL, GraphQL, postgreSQL, Github, RESTful API's, Progressive Web Applications, jQuery",
+    "JavaScript, TypeScript, Express.js, Node.js, React, React-Native, MongoDB, CSS3, HTML5, mySQL, GraphQL, postgreSQL, Git, RESTful API's, Progressive Web Applications, jQuery",
   buttonLabel: "Projects",
   imgStart: true,
   imgSrc:
