@@ -10,7 +10,7 @@ import {
   ArrowForward,
 } from "./Footer";
 
-import resume from "../../assets/Patrick-Brown-Resume-2021.pdf";
+import resume from "../../assets/Patrick-Brown-Resume-2022.pdf";
 
 const Footer = () => {
   return (
