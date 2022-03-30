@@ -1,7 +1,7 @@
 # Patrick Brown - Web Developer
 
 ## Portfolio Link
-https://patrickbrown-io.github.io/pat-brown-designs/?utm_source=github
+[Go to Pat's Portfolio](https://patrickbrown-io.github.io/pat-brown-designs/?utm_source=github)
 
 ## About Me
 Full-Stack JavaScript developer leveraging a seven-year career in digital & content marketing to deliver modern, fast, and scalable web experiences. Currently seeking a challenging position where I can utilize and further hone my abilities using technologies such as JavaScript, React, and TypeScript in a collaborative environment.
