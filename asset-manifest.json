@@ -1,27 +1,20 @@
 {
   "files": {
-    "main.css": "/pat-brown-designs/static/css/main.6236c1fa.chunk.css",
-    "main.js": "/pat-brown-designs/static/js/main.fa54ad02.chunk.js",
-    "main.js.map": "/pat-brown-designs/static/js/main.fa54ad02.chunk.js.map",
-    "runtime-main.js": "/pat-brown-designs/static/js/runtime-main.feee11f2.js",
-    "runtime-main.js.map": "/pat-brown-designs/static/js/runtime-main.feee11f2.js.map",
-    "static/js/2.d0157b34.chunk.js": "/pat-brown-designs/static/js/2.d0157b34.chunk.js",
-    "static/js/2.d0157b34.chunk.js.map": "/pat-brown-designs/static/js/2.d0157b34.chunk.js.map",
+    "main.css": "/pat-brown-designs/static/css/main.7afc69a1.css",
+    "main.js": "/pat-brown-designs/static/js/main.b2ada52d.js",
+    "static/media/video.mp4": "/pat-brown-designs/static/media/video.d28831bc5d9eeb4a9a44.mp4",
+    "static/media/headshot.jpg": "/pat-brown-designs/static/media/headshot.44a1faeba71a9f1a1d91.jpg",
+    "static/media/book.jpg": "/pat-brown-designs/static/media/book.2418d999001ed816ee60.jpg",
+    "static/media/Patrick-Brown-Resume-2022.pdf": "/pat-brown-designs/static/media/Patrick-Brown-Resume-2022.dd716a7d901cf1a5d403.pdf",
+    "static/media/budget.jpg": "/pat-brown-designs/static/media/budget.9575a50df025d568a8d9.jpg",
+    "static/media/moovie.jpg": "/pat-brown-designs/static/media/moovie.768c65b8571a2b56ae2e.jpg",
+    "static/media/svg-1.svg": "/pat-brown-designs/static/media/svg-1.1a6bba3cfd6e05632a7610e187ea07d2.svg",
     "index.html": "/pat-brown-designs/index.html",
-    "static/css/main.6236c1fa.chunk.css.map": "/pat-brown-designs/static/css/main.6236c1fa.chunk.css.map",
-    "static/js/2.d0157b34.chunk.js.LICENSE.txt": "/pat-brown-designs/static/js/2.d0157b34.chunk.js.LICENSE.txt",
-    "static/media/Patrick-Brown-Resume-2022.dd716a7d.pdf": "/pat-brown-designs/static/media/Patrick-Brown-Resume-2022.dd716a7d.pdf",
-    "static/media/book.2418d999.jpg": "/pat-brown-designs/static/media/book.2418d999.jpg",
-    "static/media/budget.9575a50d.jpg": "/pat-brown-designs/static/media/budget.9575a50d.jpg",
-    "static/media/headshot.44a1faeb.jpg": "/pat-brown-designs/static/media/headshot.44a1faeb.jpg",
-    "static/media/moovie.768c65b8.jpg": "/pat-brown-designs/static/media/moovie.768c65b8.jpg",
-    "static/media/svg-1.1a6bba3c.svg": "/pat-brown-designs/static/media/svg-1.1a6bba3c.svg",
-    "static/media/video.d28831bc.mp4": "/pat-brown-designs/static/media/video.d28831bc.mp4"
+    "main.7afc69a1.css.map": "/pat-brown-designs/static/css/main.7afc69a1.css.map",
+    "main.b2ada52d.js.map": "/pat-brown-designs/static/js/main.b2ada52d.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.feee11f2.js",
-    "static/js/2.d0157b34.chunk.js",
-    "static/css/main.6236c1fa.chunk.css",
-    "static/js/main.fa54ad02.chunk.js"
+    "static/css/main.7afc69a1.css",
+    "static/js/main.b2ada52d.js"
   ]
 }
